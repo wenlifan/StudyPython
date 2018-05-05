@@ -20,3 +20,6 @@ $ git config user.email
 $ git config --global user.name "username"
 
 $ git config --global user.email "email"
+
+-- 免密码
+git config --global credential.helper store
